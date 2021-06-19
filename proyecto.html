@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La acuarela</title>
+    <link rel="stylesheet" href="proyecto.css">
+    <script src="proyecto.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kaushan+Script&family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <ul class="list-links">
+                <il class="links-nav"><a href="">Menú</a></il>
+                <il class="links-nav"><a href="subpaginas/fotos.html">Fotos</a></il>
+                <il class="links-nav"><a href="subpaginas/info.html">Materiales</a></il>
+
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <h1>La acuarela.</h1>
+        <section class="section-container">
+            <article class="articulo1">La acuarela es una técnica de pintura sobre papel o cartulina con colores diluidos en agua. Los colores utilizados son más o menos transparentes según la cantidad de agua con la que se mezcla, y a veces dejan ver el fondo del papel, que suele ser blanco y que actúa como un verdadero tono. La acuarela, técnica de pintura transparente utiliza pigmentos finos o tintas, mezcladas con goma arábiga para darle cuerpo y glicerina o miel para darle viscosidad y unir el colorante a la superficie de pintar. Las características de la acuarela son 4 principalmente: es una pintura al agua, es muy translúcida, los colores cambian al secar y tiene carácter impredecible.​ Toda acuarela palidece si se expone al sol, los colores permanecen cuanta más calidad tienen los pigmentos. Es posible encontrar los colores en tubos o pastillas.</article>
+            <figure>
+                <img src="C:\Users\Vane\Documents\Desarrollo web\Proyecto final\Pagina acuarela\imagenes\401-4010597_acuarela-de-flores-acuarela-flores-florales-acuarela-floral.png" class="imagen1">
+                <img src="C:\Users\Vane\Documents\Desarrollo web\Proyecto final\Pagina acuarela\imagenes\depositphotos_188993514-stock-photo-red-domestic-cat-watercolor-hand.jpg" class="imagen2">
+            </figure>
+        </section>
+
+      <article class="text">Acontinuación, te enseñaremos un video explicativo de cómo usar las acuarelas para tus fururas obras.</article>
+
+        <div class="video">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/lIGwYBOyLgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <article class="ingreso">Para obtener mayor conocimiento, registrate en nuestro curso online.</article>
+
+    <form action="" class="formulario">
+        Nombre y apellido:<input type="text" placeholder="Ingresa tu nombre" id="nombre" onchange="ValidarNombre()">
+        <p id="msgNombre"></p>
+        Correo electrónico:<input type="text" placeholder="ejemplo@gmail.com" id="correo" onchange="ValidarCorreo()">
+        <p id="msgCorreo"></p>
+        Número de teléfono:<input type="text" placeholder="Número de teléfono" id="telefono" onchange="ValidarTelefono()">
+        <p id="msgTelefono"></p>
+        <input onclick="muestraMensaje()" class="submit" type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
